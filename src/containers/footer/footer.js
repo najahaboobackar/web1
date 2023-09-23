@@ -1,8 +1,9 @@
 import React from 'react'
-import "/footer.css"
+import "./footer.css"
 function footer() {
   return (
     <div>
+    
       
     </div>
   )
