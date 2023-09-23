@@ -1,12 +1,12 @@
 import React from 'react'
 import "./cta.css";
 
-function cta() {
+function Cta() {
   return (
     <div>
-      
+      cta
     </div>
   )
 }
 
-export default cta
+export default Cta;

@@ -1,31 +1,31 @@
 import React from 'react';
 import './App.css';
 import Article from './components/article/Article';
-import navbar from './components/navbar/navbar';
-import brand from './components/brand/brand';
-import feature from './components/feature/feature';
-import cta from './components/cta/cta';
- import footer from './containers/footer/footer';
- import features from './containers/features/features';
- import blog from './containers/blog/blog';
- import header from './containers/header/header';
- import whatgpt3 from'./containers/whatGPT3/whatgpt3';
- import possiblity from './containers/possiblity/possiblity';
+import Navbar from './components/navbar/navbar';
+import Brand from './components/brand/brand';
+import Feature from './components/feature/feature';
+import Cta from './components/cta/cta';
+ import Footer from './containers/footer/footer';
+ import Features from './containers/features/features';
+ import Blog from './containers/blog/blog';
+ import Header from './containers/header/header';
+ import Whatgpt3 from'./containers/whatGPT3/whatgpt3';
+ import Possiblity from './containers/possiblity/possiblity';
 function App() {
   return (
     <div className='App'>
-      <div className='gradient_bg'>
-        <navbar/>
-        <header/>
+      <div className='gradient__bg'>
+        <Navbar />
+        <Header/>
       </div>
       <div>
-        <brand/>
-        <whatgpt3/>
-        <features/>
-        <possiblity/>
-        <cta/>
-        <blog/>
-        <footer/>
+        <Brand/>
+        <Whatgpt3/>
+        <Features/>
+        <Possiblity/>
+        <Cta/>
+        <Blog/>
+        <Footer/>
 
       </div>
 
@@ -34,4 +34,4 @@ function App() {
   )
 }
 
-export default App
+export default App;

@@ -1,12 +1,12 @@
 import React from 'react'
 import "./brand.css"
 
-function brand() {
+function Brand() {
   return (
     <div>
-      
+      brand
     </div>
   )
 }
 
-export default brand
+export default Brand;

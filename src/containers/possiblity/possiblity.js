@@ -1,12 +1,12 @@
 import React from 'react'
 import "./possiblity";
 
-function possiblity() {
+function Possiblity() {
   return (
     <div>
-      
+      possiblity
     </div>
   )
 }
 
-export default possiblity
+export default Possiblity;
